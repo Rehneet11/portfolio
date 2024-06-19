@@ -12,6 +12,9 @@ const Footer = () => {
                 <Shimmerbutton title='Get in Touch' icon={<IconHeartHandshake/>} position='left'/>
             </a>
         <div className='flex mt-16 justify-between items-center'>
+        <p className="md:text-base text-sm md:font-normal font-light text-amber-500">
+          Copyright © 2024 Rehneet Singh
+        </p>
             <div className='flex items-center md:gap-3 gap-6 justify-center'>
                 {socialMedia.map((profile)=>(
                     <a key={profile.id} className='cursor-pointer flex justify-center items-center backdrop-blur-lg saturate-200 bg-opacity-75  rounded-lg border border-amber-500 p-3 ' href={profile.link}>
