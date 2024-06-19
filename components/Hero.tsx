@@ -3,6 +3,7 @@ import { BackgroundBeams } from './ui/background-beams'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import Shimmerbutton from './ui/shimmer-button'
 import { FaLocationArrow } from 'react-icons/fa'
+import { IconFileCv } from '@tabler/icons-react'
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
           <TextGenerateEffect words="Every Line of Code tells a Story" className='text-center text-[40px] md:text-5xl lg:text-6xl md:whitespace-nowrap'/>
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-amber-500'> Hi, I am Rehneet Singh, a Full Stack Web Developer from India</p>
           <a href="#about"><Shimmerbutton title='Projects' icon={<FaLocationArrow/>} position='right'/></a>
+          <a href='https://drive.google.com/file/d/1NYdWMC_5mXA24gdhgUbY_M5kN1sg6HE8/view?usp=drivesdk' className='py-5'><Shimmerbutton title='View Resume' icon={<IconFileCv/>} position='left'/></a>
         </div>
       </div>
       
