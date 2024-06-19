@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="mailto:rehneetsingh300@gmail.com" className='pt-10 cursor-pointer'>
                 <Shimmerbutton title='Get in Touch' icon={<IconHeartHandshake/>} position='left'/>
             </a>
-        <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
+        <div className='flex mt-16 md:flex-row flex-col justify-between gap-10 items-center'>
         <p className="md:text-base text-sm md:font-normal font-light text-amber-500">
           Copyright © 2024 Rehneet Singh
         </p>
