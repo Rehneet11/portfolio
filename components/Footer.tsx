@@ -13,7 +13,7 @@ const Footer = () => {
             </a>
         <div className='flex mt-16 md:flex-row flex-col justify-between gap-10 items-center'>
         <p className="md:text-base text-sm md:font-normal font-light text-amber-500">
-          Copyright © 2024 Rehneet Singh
+          Copyright © 2025 Rehneet Singh
         </p>
             <div className='flex items-center md:gap-3 gap-6'>
                 {socialMedia.map((profile)=>(
